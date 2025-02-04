@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+.account-box {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #203522c5;
+    border-radius: 10px;
+}
+
+.account-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.account-box .user-box {
+    position: relative;
+}
+
+.account-box .user-box input {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: #fff 1px solid;
+    outline: none;
+    background: transparent;
+}
+
+.account-box form .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 30%;
+}
+
+.account-box .btn:hover {
+    background: #ffffff;
+    color: #416843;
+    border-radius: 5px;
+    box-shadow: 0 0 5px olivedrab,
+        0 0 25px olivedrab,
+        0 0 50px olivedrab,
+        0 0 100px olivedrab;
+    /* border: none; */
+}
+
+.account {
+    text-decoration: none;
+    color: white;
+    /* width: 100%; */
+}
+
+.account:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    right: 28%;
+}
+
+.selector {
+    display: row;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#login-status {
+    margin-top: -25px;
+    padding: 0 0 20px 0;
+}
+
+.image-container {
+    position: absolute;
+    width: 80%;
+    margin-top: 30px;
+    left: 0;
+}
+
+.image {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
